@@ -88,6 +88,17 @@ input, select, textarea {
   -ms-appearance: none;
   appearance: none; }
 
+.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 50%;
+    min-width: 250px;
+    max-width: 500px;
+}
+
 /* Typography */
 html {
   font-size: 13pt; }
