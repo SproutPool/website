@@ -110,6 +110,25 @@ input, select, textarea {
     max-width: 1000px;
 }
 
+.nav-icon {
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    background: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    border-bottom: none;
+    position: relative;
+}
+.nav-icon:hover {
+    color: #ffffff;
+}
+
 /* Typography */
 html {
   font-size: 13pt; }
