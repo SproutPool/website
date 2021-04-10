@@ -105,9 +105,8 @@ input, select, textarea {
     margin-right: auto;
     margin-top: 50px;
     margin-bottom: 50px;
-    width: 80%;
-    min-width: 300px;
-    max-width: 1000px;
+    width: 100%;
+    /* max-width: 1000px; */
 }
 
 .nav-icon {
@@ -2472,14 +2471,15 @@ body {
   top: 0;
   width: 100%;
   z-index: 10001; }
-  #header > .logo {
-    color: #ffffff;
-    font-size: 1rem;
-    font-weight: 600;
-    height: inherit;
-    line-height: inherit;
-    padding: 0 1.25rem;
-    text-decoration: none; }
+  .header-logo {
+    height: 100%;
+  }
+  #header > a {
+    height: 100%;
+    width: min-content;
+    padding-left: 1.25rem;
+    padding-right: 0.75rem;
+  }
   #header > nav > a {
     color: inherit;
     display: inline-block;
