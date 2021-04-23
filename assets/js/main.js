@@ -103,11 +103,12 @@
             let date = inputDate.getDate();
             let month = months[inputDate.getMonth()];
             let year = inputDate.getFullYear();
-            let time = inputDate.getTime();
+            let hours = inputDate.getHours();
+            let minutes = inputDate.getMinutes();
+            let seconds = inputDate.getSeconds();
 
-            let datetime = day + ", " + month + " " + date + ", " + year;
 
-            return datetime;
+            return day + ", " + month + " " + date + ", " + year + " @ " + hours + ":" + minutes + ":" + seconds;
         }
 
 })(jQuery);
