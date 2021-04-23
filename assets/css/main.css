@@ -82,11 +82,11 @@ input::-moz-focus-inner {
   border: 0;
   padding: 0; }
 
-input, select, textarea {
+/* input, select, textarea {
   -moz-appearance: none;
   -webkit-appearance: none;
   -ms-appearance: none;
-  appearance: none; }
+  appearance: none; } */
 
 .centered {
     display: block;
