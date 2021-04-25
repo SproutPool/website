@@ -66,10 +66,10 @@
                     <p>Figuring out when you will start receiving your staking rewards, can be a bit confusing. This tool will tell you exactly when, based on the date you delegated your wallet at.</p>
                     <hr>
                     <h4 style="margin: 0 0 0.5rem 0;">When did you delegate your wallet?</h4>
-                    <input type="datetime-local" id="delegation-date" name="delegation-date"><br><br>
+                    <input type="datetime-local" id="delegation-date" name="delegation-date" max="9999-12-31T23:59"><br><br>
                     <h4 style="margin: 0 0 0.5rem 0;">How much ADA did you delegate? <span style="font-size: 80%;"><i>(optional)</i></span></h4>
                     <input type="number" id="delegation-amount" name="delegation-amount"><span> ₳</span><br><br>
-                    <button id="rewards-helper-btn">Process</button><br><br><br><br>
+                    <button id="rewards-helper-btn">Calculate</button><br><br><br><br>
                     <h3>You will <b>start</b> receiving rewards</h3>
                     <span id="delegation-rewards-timing" style="font-size: 80%;"><i>results will be shown here</i></span>
             </div>
@@ -110,6 +110,7 @@
 			<script src="../assets/js/breakpoints.min.js"></script>
 			<script src="../assets/js/util.js"></script>
 			<script src="../assets/js/main.js"></script>
+			<script src="../assets/js/rewards-helper.js"></script>
 
 	</body>
 </html>
