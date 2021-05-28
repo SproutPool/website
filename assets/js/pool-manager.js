@@ -1,7 +1,6 @@
 (function($) {
 
     // pool155x3l57d4xu52t93f9r55cqaysej4pc2dl3jkc9d6w5ckyu6u7n
-    
     var pastPoolId;
     const BLOCKFROST_API_KEY = config.BLOCKFROST_API_KEY;
 
