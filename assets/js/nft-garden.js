@@ -66,7 +66,6 @@
                                     }
                                 },
                                 success: function(searchedAddressesData) {
-                                    console.log(searchedAddressesData);
                                     searchedAddressesData.amount.forEach((addressItem) => {
                                         if (addressItem.unit != 'lovelace') {
                                             $.ajax({
@@ -81,7 +80,6 @@
                                                     }
                                                 },
                                                 success: function(tokenData) {
-                                                    console.log(tokenData);
                                                     nftResults += "<p><span>Name: <a href="+tokenData.onchain_metadata.website+">"+tokenData.onchain_metadata.name+"</a></span><br><span>Quantity: "+addressItem.quantity+"</span><br><img style='width:40%;' src=https://ipfs.blockfrost.dev/ipfs/"+tokenData.onchain_metadata.image.split('//')[1]+" /></p>";
                                                     $('#nft-results').html(nftResults);
                                                 }
