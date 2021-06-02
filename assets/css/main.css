@@ -189,8 +189,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   margin: 0 0 1.5rem 0; }
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-    color: inherit;
-    text-decoration: none; }
+    color: inherit; }
 
 h1 {
   font-size: 3rem;
@@ -1860,8 +1859,7 @@ ul.icons {
   background-size: cover;
   border-top: 0;
   display: -ms-flexbox;
-  height: 35rem !important;
-  min-height: 35rem;
+  min-height: 45rem;
   overflow: hidden;
   position: relative;
   text-align: center;
