@@ -144,10 +144,13 @@
                 <div class="content">
                     <h2>Pool Info</h2>
                     <ul>
-                        <li>Pledge: ₳ 40,000</li>
-                        <li>Base Fee: 340</li>
-                        <li>Variable Fee: 3%</li>
-                        <li>Location: Canada</li><br>
+                        <li>Live Stake: <span id="live-stake"></span></li>
+                        <li>Active Stake: <span id="active-stake"></span></li>
+                        <li>Pledge: ₳ <span id="pledge"></span></li>
+                        <li>Base Fee: <span id="fixed-fee"></span></li>
+                        <li>Variable Fee: <span id="margin-fee"></span>%</li>
+                        <li>Live Delegators: <span id="delegators"></span></li><br>
+                        <li>Location: Canada</li>
                         <li>Mainnet Pool Stats:
                             <a href="https://pooltool.io/pool/a50d1fd3cda9b9452cb149474a601d24332a870a6fe32b60add3a98b/epochs" target="_blanc"> PoolTool</a> | <a href="https://adapools.org/pool/a50d1fd3cda9b9452cb149474a601d24332a870a6fe32b60add3a98b" target="_blanc">ADApools</a> | <a href="https://pool.pm/a50d1fd3cda9b9452cb149474a601d24332a870a6fe32b60add3a98b/stake" target="_blanc">pool.pm</a>
                         </li>
@@ -248,6 +251,7 @@
 			</footer>
 
 		    <!-- Scripts -->
+			<script src="assets/js/config.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
